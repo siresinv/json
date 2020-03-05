@@ -1,7 +1,7 @@
 <?php
 
 
-$data = parse_ini_file(config.ini, true);
+$data = parse_ini_file('config.ini');
 
 echo '<pre>';
 print_r($data);
