@@ -7,7 +7,7 @@ $list = array (
 );
 
 
-$csv_file = fopen("file.csv", "w");
+$csv_file = fopen("file.csv", "w") or die("Error");
 
 foreach ($list as $line) {
 	fputcsv($csv_file, explode(',', $line),";");
