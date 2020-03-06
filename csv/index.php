@@ -13,6 +13,6 @@ for ($i=0; $csv_data = fgetcsv($csv_file,1000,";"); i++)
 
 fclose($csv_file);
 
-
+echo "123";
 
 ?>
