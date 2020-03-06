@@ -1,4 +1,4 @@
-<?phpinfo()
+<?php
 
 $list = array(
 	'aaa,bbb,ccc,ddd',
