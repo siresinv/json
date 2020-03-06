@@ -3,7 +3,7 @@
 
 $csv_file = fopen("data_ansi_utf8.csv", "rt") or die("Error!");
 
-for ($i=0; $csv_data = fgetcsv($csv_file,1000,";"); i++)
+for ($i=0; $csv_data = fgetcsv($csv_file,1000,";"); $i++)
 {
 	$num_col_on_row = count($csv_data);
 
@@ -14,7 +14,7 @@ for ($i=0; $csv_data = fgetcsv($csv_file,1000,";"); i++)
 
 fclose($csv_file);
 
-echo "123";
+phpinfo();
 
 ?>
 
